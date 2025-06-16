@@ -59,3 +59,9 @@ This tool is intended for educational and research purposes only.
 - Modifying firewall rules may disrupt network connectivity or other applications.
 - The author is not responsible for any damage, data loss, or network outages caused by improper usage of this tool.
 - Use only on systems where you have full permission to modify firewall settings.
+
+## 🙏 Note
+
+This project is developed as part of my learning journey in cybersecurity and network security.  
+If you find any bugs, issues, or have suggestions for improvement — feel free to open an issue or submit a pull request.  
+I would greatly appreciate your feedback and contributions to help me improve the tool and my learning. 🚀
