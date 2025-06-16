@@ -1,6 +1,6 @@
-# Dynamic Firewall Rule Generator
+# Real-Time IP Blocker (Windows)
 
-A Python-based GUI tool to dynamically manage Windows Firewall rules.  
+A Python GUI tool to dynamically block/unblock IP addresses using Windows Firewall rules in real-time.
 This tool allows users to block or unblock specific IP addresses for inbound, outbound, or both traffic directions. Useful for network access control, cybersecurity labs, system administration, and educational purposes.
 
 ## 🔧 Features
@@ -31,7 +31,6 @@ This tool allows users to block or unblock specific IP addresses for inbound, ou
 ## 📂 Files Included
 
 - `firewall_rule_manager.py` → Main source code
-- `windows_firewall_rules.json` → Rule storage file
 
 ## 🚀 Usage
 
