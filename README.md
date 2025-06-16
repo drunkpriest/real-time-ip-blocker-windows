@@ -36,11 +36,11 @@ This tool allows users to block or unblock specific IP addresses for inbound, ou
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/YourUsername/dynamic-firewall-rule-generator.git
+    https://github.com/Nancy59/real-time-ip-blocker-windows.git
     ```
 2. Navigate to the project folder:
     ```bash
-    cd dynamic-firewall-rule-generator
+    cd real-time-ip-blocker-windows
     ```
 3. Run the script as Administrator:
     ```bash
